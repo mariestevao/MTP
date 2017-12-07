@@ -1,10 +1,9 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-using namespace std;
 
-void main ()
+int main ()
 {
 	char str[1000], str1[50], str2[50];
 	int i, primeiro=0, flag=0;
@@ -25,11 +24,12 @@ void main ()
 			}
 			else if (str[0] == 'T' && str[1]=='C' && str[2] == 'H' && str[3]=='A' && str[4] =='U')
 			{
-				printf("Saindo? Que pena…\n");
+				printf("Saindo? Que penaâ€¦\n");
 				flag=1;
 			}
 	
 	if (flag==0)
 		printf("Voce quis dizer: %s?", str);
-	system ("pause");
+	getch ();
+	return 0;
 }
