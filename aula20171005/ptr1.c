@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include <iostream>
 #include <conio.h>
-using namespace std;
 
-void main ()
+int main ()
 {
 	int i;
 	unsigned int variavel =  0xFACA8421;
@@ -14,6 +12,6 @@ void main ()
 	{
 		printf("O conteudo do endereco %p eh: %X\n", ponteiro, *ponteiro);
 	}
-
 	getch ();
+	return 0;
 }
