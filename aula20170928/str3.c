@@ -1,10 +1,8 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-using namespace std;
-
-void main ()
+int main ()
 {
 	char str[1000];
 	int i;
@@ -20,5 +18,6 @@ void main ()
 			str[i] = str[i] - 13;
 	}
 	printf("%s.\n", str);
-	system ("pause");
+	getch ();
+	return 0;
 }
