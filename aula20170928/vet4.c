@@ -1,8 +1,7 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-using namespace std;
 
 int main ()
 {
@@ -28,5 +27,6 @@ int main ()
 			maior = v[i];
 	}
 	printf("O maior numero eh %.2lf e o menor %.2lf.\n", maior, menor);
+	getch ();
 	return 0;
 }
