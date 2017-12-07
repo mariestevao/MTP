@@ -1,8 +1,8 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-using namespace std;
+
 
 int main ()
 {
@@ -26,5 +26,6 @@ int main ()
 
 	media = soma/10000;
 	printf("A media correspondente eh %lf.\n", media);
+	getch ();
 	return 0;
 }
