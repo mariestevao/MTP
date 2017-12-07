@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <iostream>
-using namespace std;
+#include <conio.h>
+
 
 int main ()
 {
@@ -10,6 +10,6 @@ int main ()
     for(fat=1; fat<=numero; fat++)
         mult = mult*fat;
     printf("O fatorial do numero digitado eh: %lf.\n", mult);
-	system ("pause");
-    return 0;
+	getch ();
+	return 0;
 }
