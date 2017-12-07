@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <iostream>
+#include <conio.h>
 #include <math.h>
-using namespace std;
 
-void main ()
+int main ()
 {
 	double x1, y1, x2, y2, dist1,dist2,dist;
 	printf ("Digite as coordenadas do ponto A.\n");
@@ -19,5 +18,6 @@ void main ()
 	dist=dist1+dist2;
 	dist = sqrt (dist);
 	printf("A distancia e de %lf.\n", dist);	
-	system ("pause");
+	getch ();
+	return 0;
 }
