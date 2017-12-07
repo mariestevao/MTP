@@ -1,9 +1,6 @@
 #include <stdio.h>
-#include <iostream>
 #include <conio.h>
-using namespace std;
-
-void main ()
+int main ()
 {
 	int num1, num2, soma, i;
 	unsigned char *ponteiro1, *ponteiro2, *pontsoma;
@@ -20,5 +17,6 @@ void main ()
 	for(i=0; i<sizeof(soma); i++, pontsoma++)
 		printf("No endereco %X esta o conteudo da soma %x.\n", pontsoma, *pontsoma);
 	getch ();
+	return 0;		
 }
 
