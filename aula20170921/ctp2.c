@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <iostream>
+#include <conio.h>
 #include <ctype.h>
-using namespace std;
 
-void main ()
+int main ()
 {
 	char str[150];
 	int i;
@@ -17,5 +16,6 @@ void main ()
 		}
 	}
 	printf ("A frase, escrita em letras minusculas fica: %s.\n", str);
-	system ("pause");
+	getch ();
+	return 0;
 }
