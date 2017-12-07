@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stdio.h>
-using namespace std;
 
 int main ()
 {
@@ -19,5 +18,6 @@ int main ()
 
 	
 	printf("A soma dos numeros eh %.2lf e sua produtoria eh %.2lf.\n", soma, mult);
+	getch ();
 	return 0;
 }
