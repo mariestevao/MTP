@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <iostream>
+#include <conio.h>
 #include <math.h>
-using namespace std;
 
-void main ()
+
+int main ()
 {
 	int num, i;
 	float resp1, soma1=0;
@@ -19,5 +19,6 @@ void main ()
 		soma2= soma2 + resp2;
 	}
 	printf ("A resposta em float eh %.15f e em double e %lf.\n", soma1, soma2);
-	system ("pause");
+	getch ();
+	return 0;
 }
