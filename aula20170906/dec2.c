@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <iostream>
+#include <conio.h>
 #include <stdlib.h>
 #include <time.h>
-using namespace std;
 
-void main ()
+
+int main ()
 {
 	int pontos = 0, resto, aleat1, aleat2, num1, num2, num3;
 	srand (time(0));
@@ -26,6 +26,7 @@ void main ()
 	if (aleat2==num3)
 		pontos++;
 	printf("Seu saldo de pontos final eh %d.\n", pontos);
-	system ("pause");
+	getch();
+	return 0;
 }
 

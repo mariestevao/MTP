@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 int main ()
 {
@@ -12,5 +13,6 @@ int main ()
     soma = A*2 + B*2 + C*2 + D*3 + E*5;
     soma = soma/14;
     printf("A media do aluno e %.2f", soma);
+	getch();
     return 0;
 }

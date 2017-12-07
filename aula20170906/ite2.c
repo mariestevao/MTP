@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <iostream>
-using namespace std;
+#include <conio.h>
 
-void main ()
+int main ()
 {
     int base, pot, mult, i;
     printf ("Digite a base e o expoente desejados, respectivamente.\n");
@@ -12,5 +11,6 @@ void main ()
     for( i=2; i<=pot; i++)
         mult = base*mult;
     printf ("O resultado da potenciacao eh: %d.\n", mult);
-	system ("pause");
+	getch();
+	return 0;
 }

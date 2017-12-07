@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 int main ()
 {
@@ -19,5 +20,6 @@ int main ()
     resto = numero%7;
     if (resto==0)
         printf("O numero digitado e multiplo de 7.\n");
-        return 0;
+     getch ();   
+	return 0;
 }

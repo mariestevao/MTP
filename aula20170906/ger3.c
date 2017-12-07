@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <conio.h>
 
 int main ()
 {
@@ -39,6 +40,7 @@ int main ()
 	}while (rodada<3);
 
 	printf("Seu resultado final eh de %d pontos.\n", total);
-    system ("pause");
+    getch();
+	return 0;
 
 }

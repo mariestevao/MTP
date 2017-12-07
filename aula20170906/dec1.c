@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <iostream>
-using namespace std;
+#include <conio.h>
 
-void main ()
+int main ()
 {
     int numero, resto;
     printf ("Digite o numero desejado.\n");
@@ -26,5 +25,6 @@ void main ()
 			printf(" e multiplo de 7.");
 	}
 	printf("\n");
-	system ("pause");
+	getch();
+	return 0;
 }

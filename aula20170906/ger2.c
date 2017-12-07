@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <iostream>
-using namespace std;
+#include <conio.h>
 
-void main ()
+int main ()
 {
     int num, i, flag=0;
     printf ("Digite o numero desejado.\n");
@@ -16,5 +15,6 @@ void main ()
 		printf("O numero %d eh perfeito.\n", num);
 	else 
 		printf("O numero %d nao eh perfeito.\n", num);
-	system ("pause");
+	getch();
+	return 0;
 }

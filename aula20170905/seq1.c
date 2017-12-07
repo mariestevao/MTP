@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 int main ()
 {
@@ -7,5 +8,6 @@ int main ()
     scanf ("%f", &lado);
     area = lado*lado;
     printf ("A area do quadrado em questao vale %f metros.", area);
+	getch ();
     return 0;
 }

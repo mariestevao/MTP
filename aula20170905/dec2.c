@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <conio.h>
 
 int main ()
 {
@@ -17,5 +18,6 @@ int main ()
     printf ("O numero sorteado foi %d, a soma dele com o numero digitado vale %d e eh par", aleat, soma);
    else
      printf ("O numero sorteado foi %d, a soma dele com o numero digitado vale %d e eh impar", aleat, soma);
-   return 0;
+	getch();   
+	return 0;
 }

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 int main ()
 {
@@ -8,5 +9,6 @@ int main ()
     scanf ("%f", &altura);
     area = base*altura;
     printf ("A area do paralelogramo vale %f unidades de area.\n", area);
+	getch();
     return 0;
 }

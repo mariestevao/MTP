@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <conio.h>
 
 int main ()
 {
@@ -16,6 +17,7 @@ int main ()
         printf ("VOCE GANHOU");
     else
         printf ("VOCE PERDEU");
+	getch();
     return 0;
 
 }
