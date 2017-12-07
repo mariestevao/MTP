@@ -1,9 +1,6 @@
 #include <stdio.h>
-#include <iostream>
 #include <conio.h>
-using namespace std;
-
-void main ()
+int main ()
 {
 	int i, flag=0, total=0, vetor[] = {0,1,2,4,8,16,1025};
 	unsigned char *ponteiro;
@@ -18,4 +15,5 @@ void main ()
 	}
 	printf ("Foram varridos %d de memoria, e foram achados %d somente com 0's", total, flag);
 	getch ();
+	return 0;
 }
