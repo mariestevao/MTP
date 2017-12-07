@@ -1,7 +1,6 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 
-using namespace std;
 
 int main ()
 {
@@ -21,5 +20,6 @@ int main ()
 	printf("O vetor inverso eh:\n");
 	for (i=0; i<10; i++)
 		printf("%.2lf ", v[i]);	
+	getch ();
 	return 0;
 }
