@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <iostream>
 #include <conio.h>
 #include <stdlib.h>
 #include <time.h>
-using namespace std;
+
 #define RAND_MAX 255;
 
-void main ()
+int main ()
 {
 	int vetor[1000], i, flag=0;
 	unsigned char *ponteiro = (unsigned char *) &vetor, num;
@@ -33,5 +32,6 @@ void main ()
 	}
 	printf("Esses %d bytes sao %d e estao entre %X e %X", flag, num, primeiro, ultimo);
 	getch ();
+	return 0;
 }
 
