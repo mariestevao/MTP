@@ -1,7 +1,7 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <ctype.h>
-using namespace std;
+
 
 int main ()
 {
@@ -14,6 +14,6 @@ int main ()
 			str[i] = toupper(str[i]);
 	}
 	printf ("\nA mensagem em letras maiusculas sera: %s.\n", str);
-	system ("pause");
+	getch ();
 	return 0;
 }
