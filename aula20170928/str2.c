@@ -1,8 +1,7 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-using namespace std;
 
 int main ()
 {
@@ -26,5 +25,6 @@ int main ()
 			d++;
 	}
 	printf("Existem %d vogais, %d consoantes, %d digitos e %d espacos.\n", v, c, d, e);
+	getch ();
 	return 0;
 }
