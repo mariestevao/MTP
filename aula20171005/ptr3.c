@@ -1,9 +1,6 @@
 #include <stdio.h>
-#include <iostream>
 #include <conio.h>
-using namespace std;
-
-void main ()
+int main ()
 {
 	int i, flag=0, total=0, vetor[] = {0x0F,0xFF,0xFFFF,0xFFFFFF,0x80000001,0xFFFFFFFF};
 	unsigned char *ponteiro;
@@ -18,5 +15,6 @@ void main ()
 	}
 	printf ("Existem %d bytes com 1's e foram varridos %d", flag, total);
 	getch ();
+	return 0;
 }
 
