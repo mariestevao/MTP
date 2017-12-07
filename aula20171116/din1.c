@@ -1,5 +1,4 @@
 #include <conio.h>
-#include <iostream>
 #include <stdio.h>
 #include <math.h>
 float desvio (float qtde, float * numeros, float media)
