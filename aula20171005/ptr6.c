@@ -1,10 +1,7 @@
 #include <stdio.h>
-#include <iostream>
 #include <conio.h>
 
-using namespace std;
-
-void main ()
+int main ()
 {
 	char str[16];
 	int i;
@@ -27,5 +24,6 @@ void main ()
 		printf ("%X ", *ponteiro2);
 	}
 	getch ();
+	return 0;
 }
 
