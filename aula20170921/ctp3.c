@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <iostream>
+#include <conio.h>
 #include <ctype.h>
-using namespace std;
 
-void main ()
+int main ()
 {
 	char str[150];
 	int i, qnts = 0;
@@ -17,5 +16,6 @@ void main ()
 		}
 	}
 	printf ("Foram utilizadas %d letras.\n", qnts);
-	system ("pause");
+	getch();
+	retun 0;
 }
